@@ -1,58 +1,82 @@
+<div align="center">
+
+<img src="https://arborithm.github.io/Effortless/brand/pancake.svg" alt="Effortless" width="160" />
+
 # Effortless
 
-Effortless pilote vos projets logiciels avec vos agents IA : cadrage,
-backlog, normes de développement, barre de qualité et livraison, sur votre
-poste. *English below.*
+**Drive your software projects with your AI agents — on your machine.**
 
-## Télécharger
+Framing, backlog, development standards, quality bar and delivery, from the first idea to the release.
 
-Chaque [release](../../releases/latest) contient :
+[![Latest release](https://img.shields.io/github/v/release/ArboRithm/Effortless?label=release&color=1F5A44)](https://github.com/ArboRithm/Effortless/releases/latest) [![Platforms](https://img.shields.io/badge/macOS%20%C2%B7%20Windows-1F5A44?label=platforms)](#download) [![Documentation](https://img.shields.io/badge/docs-arborithm.github.io-AD8B4A)](https://arborithm.github.io/Effortless/en/)
 
-| Système | Fichier |
-|---|---|
-| macOS (Apple Silicon) | `Effortless_<version>_standard_aarch64.dmg` |
-| Windows x64 | `Effortless_<version>_standard_x64-setup.exe` |
-| Windows ARM64 | `Effortless_<version>_standard_arm64-setup.exe` |
+[**Download**](https://github.com/ArboRithm/Effortless/releases/latest) · [**Documentation**](https://arborithm.github.io/Effortless/en/) · [**MCP reference**](https://arborithm.github.io/Effortless/en/reference/mcp/) · [Français](README.fr.md)
 
-L'application vous propose ensuite ses mises à jour.
+<br />
 
-> ⚠️ **Windows** : l'installeur n'est pas encore signé. Windows SmartScreen
-> peut afficher un avertissement : « Informations complémentaires », puis
-> « Exécuter quand même ». La version macOS est signée et notarisée par Apple.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://arborithm.github.io/Effortless/captures/en/dark/dashboard.png" />
+  <img src="https://arborithm.github.io/Effortless/captures/en/light/dashboard.png" alt="The Effortless dashboard: work in progress, what awaits your decision, statistics and tiles" width="900" />
+</picture>
 
-## Licence
+</div>
 
-Gratuiciel propriétaire, régi par le [contrat de licence (CLUF)](LICENSE.md) :
-usage gratuit, personnel ou professionnel ; redistribution et modification
-interdites. Le code source n'est pas publié.
+## Why Effortless
 
-- **Vos projets vous appartiennent** : tout ce que vous produisez avec
-  Effortless est votre propriété exclusive.
-- **Aucune collecte de données** : Effortless ne contient aucune télémétrie ;
-  vos données personnelles et privées ne seront jamais collectées.
-- Les licences des composants tiers sont dans
-  [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
+AI agents write code fast. Keeping a project framed, tracked and shippable is another story. Effortless gives you and your agents one shared, structured view of the project — what is decided, what is in progress, what comes next — and a method to move it forward, step by step.
 
-Éditeur : Benjamin Dubois, EI (ArboRithm) — app@arborithm.fr.
+You decide. Your agent executes. Effortless keeps everything in order.
+
+## Highlights
+
+- **Resume dashboard** — open a project and see at once what is in progress, what awaits your decision and what comes next. Compose your own tiles.
+- **The OPALE cycle** — every story goes through the same phases (Observe, Position, Articulate, Launch, Execute), guarded by the engine rather than by memory.
+- **Backlog and change register** — epics, stories and tasks, anomalies and feature requests, and the history of your work sessions.
+- **Knowledge** — decisions, open questions and framing documents, scoped to the project, an epic or a story.
+- **Quality, measured** — drift between code and documentation, repository state, shared development standards.
+- **Delivery** — version, tag and build, project-wide or module by module, after a summary you confirm; internal and public channels.
+- **Your agents, connected** — Effortless deploys its MCP server into your AI tools and gives them an up-to-date guide of every verb they can call.
+
+## Works with your agents
+
+Effortless exposes its engine through the [Model Context Protocol](https://modelcontextprotocol.io). Agents built on frontier models use it best — **Claude Code**, **Codex** or **Antigravity**, for example; **opencode** support is in progress.
+
+Deploy it from the app (**Preferences › MCP & Skills**) or ask your agent to call `effortless_deploy`. Then just talk to it:
+
+> *"Start an epic for the invoicing module, with a first story for the quote form."*
+
+Every verb is documented in the [MCP reference](https://arborithm.github.io/Effortless/en/reference/mcp/), and the [agent guide](https://arborithm.github.io/Effortless/en/agent/) walks through real use cases.
+
+## Download
+
+| Platform | Requirements | File |
+|---|---|---|
+| **macOS** | Apple Silicon, macOS 10.15 or later | `Effortless_<version>_standard_aarch64.dmg` |
+| **Windows** | x64 | `Effortless_<version>_standard_x64-setup.exe` |
+| **Windows** | ARM64 | `Effortless_<version>_standard_arm64-setup.exe` |
+
+Get them from the [latest release](https://github.com/ArboRithm/Effortless/releases/latest). Effortless then offers its own updates — nothing installs without your consent.
+
+The macOS build is signed and notarized by Apple. The Windows installer is not signed yet: if SmartScreen warns you, choose **More info**, then **Run anyway**.
+
+## Getting started
+
+1. **Install** Effortless and create your profile on first launch.
+2. **Open a project** — create a new one with the creation assistant, or adopt an existing repository.
+3. **Connect your agent** from **Preferences › MCP & Skills**, and start working.
+
+The [getting started guide](https://arborithm.github.io/Effortless/en/guide/) covers each screen in detail.
+
+## Privacy
+
+Effortless runs on your machine. Your projects stay in your folders and belong to you. There is no telemetry and no data collection.
+
+## Support
+
+- **Documentation** — [arborithm.github.io/Effortless](https://arborithm.github.io/Effortless/en/)
+- **Bugs and suggestions** — [open an issue](https://github.com/ArboRithm/Effortless/issues)
+- **Contact** — app@arborithm.fr
 
 ---
 
-# Effortless (English)
-
-Effortless drives your software projects with your AI agents: framing,
-backlog, development standards, quality bar and delivery, on your machine.
-
-**Download** the file for your system from the [latest release](../../releases/latest)
-(table above). The app then offers you its updates.
-
-> ⚠️ **Windows**: the installer is not signed yet. SmartScreen may warn you:
-> choose "More info", then "Run anyway". The macOS build is signed and
-> notarized by Apple.
-
-**License**: proprietary freeware, governed by the [license agreement
-(EULA)](LICENSE.md) — free to use, personally or professionally; no
-redistribution or modification. The source code is not published. **Your
-projects belong to you**; **no data collection** — no telemetry, and your
-personal and private data will never be collected. Third-party licenses are
-in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt). Publisher: Benjamin
-Dubois, EI (ArboRithm) — app@arborithm.fr.
+<sub>Effortless is published by ArboRithm and free to use under its [license agreement](LICENSE.md).</sub>
