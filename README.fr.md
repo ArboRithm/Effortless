@@ -47,6 +47,17 @@ Déployez-le depuis l'application (**Préférences › MCP & Skills**) ou demand
 
 Chaque verbe est décrit dans la [référence MCP](https://arborithm.github.io/Effortless/reference/mcp/), et le [guide « Avec un agent »](https://arborithm.github.io/Effortless/agent/) part de cas d'usage concrets.
 
+### La configuration recommandée
+
+Effortless donne le meilleur de lui-même avec un **agent en ligne de commande — Claude Code, Codex ou Antigravity — lancé depuis la racine de votre projet**, le dossier qui contient `effortless.json` :
+
+```sh
+cd ~/Projets/mon-projet
+claude        # ou codex, ou la commande de votre agent
+```
+
+Le serveur MCP d'Effortless reconnaît votre projet à partir de ce dossier, et votre agent y lit ses instructions. Gardez l'application Effortless ouverte à côté pour voir, en direct, ce que fait l'agent. Le terminal intégré de VS Code, ouvert sur le dossier du projet, est tout aussi confortable. [En savoir plus dans le guide « Avec un agent »](https://arborithm.github.io/Effortless/agent/#travailler-au-mieux-l-agent-ouvert-a-la-racine-du-projet).
+
 ## Télécharger
 
 | Plateforme | Configuration | Fichier |
@@ -63,7 +74,8 @@ La version macOS est signée et notarisée par Apple. L'installeur Windows n'est
 
 1. **Installez** Effortless et créez votre profil au premier lancement.
 2. **Ouvrez un projet** — créez-en un avec l'assistant de création, ou reprenez un dépôt existant.
-3. **Branchez votre agent** depuis **Préférences › MCP & Skills**, et c'est parti.
+3. **Branchez votre agent** depuis **Préférences › MCP & Skills**.
+4. **Ouvrez un terminal à la racine du projet**, lancez-y votre agent, et parlez-lui.
 
 Le [guide de prise en main](https://arborithm.github.io/Effortless/guide/) détaille chaque écran.
 
