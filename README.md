@@ -58,6 +58,8 @@ claude        # or codex, or your agent's command
 
 The Effortless MCP server recognizes your project from that folder, and your agent reads its instructions there. Keep the Effortless app open alongside to watch, live, what the agent does. The VS Code integrated terminal, opened on the project folder, is just as comfortable. [More in the agent guide](https://arborithm.github.io/Effortless/en/agent/#working-at-your-best-the-agent-opened-at-the-project-root).
 
+Your code can live in the project, in other repositories you develop, or in **shared sources** that Effortless leaves untouched — no git hook, no commits. Pick your work mode and code layout before you start: [Choosing your setup](https://arborithm.github.io/Effortless/en/guide/setup.html).
+
 ## Download
 
 | Platform | Requirements | File |
