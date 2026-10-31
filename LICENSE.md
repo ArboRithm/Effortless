@@ -1,7 +1,7 @@
 # Contrat de Licence Utilisateur Final (CLUF) — Effortless (Édition Standard)
 
-**Version 2.0 — Gratuiciel propriétaire. English version below ; en cas de divergence, la version française prévaut.**
-*Date d'effet : 11 octobre 2026.*
+**Version 2.1 — Gratuiciel propriétaire. English version below ; en cas de divergence, la version française prévaut.**
+*Date d'effet : 31 octobre 2026.*
 *Copyright © 2026 Benjamin Dubois, EI, exerçant sous le nom commercial ArboRithm. Tous droits réservés.*
 
 **Éditeur** : Benjamin Dubois, entrepreneur individuel (EI), exerçant sous le nom commercial « ArboRithm » — SIREN : 490 123 296 — contact : app@arborithm.fr. Dans le présent Contrat, « ArboRithm » désigne cet éditeur.
@@ -40,8 +40,12 @@ Sauf autorisation écrite préalable d'ArboRithm, vous vous interdisez expressé
 4. **Garantie : vos données personnelles et privées ne feront en aucun cas l'objet d'une collecte.** Cette garantie vaut aujourd'hui et pour toute mesure future. Sont notamment concernés : votre identité, vos coordonnées et identifiants ; vos Données Utilisateur (code, documents, projets, registres, consignes et échanges avec des agents) ; les noms et chemins de vos fichiers, projets et dépôts ; vos secrets, jetons et clés ; et toute donnée permettant de vous identifier. L'adresse IP par laquelle transiterait une mesure future ne sera ni conservée, ni associée aux données mesurées.
 5. Pour toute question relative à vos données : app@arborithm.fr.
 
-### 7. Mises à jour
-Le Logiciel vérifie la disponibilité de ses mises à jour auprès de son infrastructure de distribution (GitHub Releases, opérée par GitHub, Inc.), qui reçoit à cette occasion, comme pour tout téléchargement, l'adresse IP de votre appareil et la version installée, et les traite selon sa propre politique de confidentialité. La vérification au lancement peut être désactivée dans les Préférences. Une mise à jour est téléchargée et installée sur votre action. Chaque version est régie par le Contrat qui l'accompagne.
+### 7. Mises à jour et fonctionnement hors connexion
+1. Le Logiciel surveille la disponibilité de ses mises à jour sur son canal public : peu après son démarrage, puis à intervalle régulier tant qu'il reste ouvert. Il interroge pour cela son infrastructure de distribution (GitHub Releases, opérée par GitHub, Inc.), qui reçoit à cette occasion, comme pour tout téléchargement, l'adresse IP de votre appareil et la version installée, et les traite selon sa propre politique de confidentialité.
+2. Lorsqu'une version plus récente est disponible, le Logiciel vous en informe dans sa fenêtre, par une notification du système et dans son menu. Vous pouvez ignorer une version. Une mise à jour n'est téléchargée et installée que sur votre action.
+3. Cette surveillance peut être désactivée dans les Préférences (« Surveiller les mises à jour du canal public »).
+4. Le fonctionnement du Logiciel ne dépend pas d'une connexion à Internet. Sans réseau, la vérification des mises à jour échoue sans effet, et le Logiciel reste pleinement utilisable, y compris avec un agent d'intelligence artificielle exécuté sur votre appareil. Seules les opérations qui s'adressent par nature à un service distant que vous avez configuré (dépôt git, source de normes, outils de suivi, publication de versions) échouent alors, sans bloquer le reste du Logiciel.
+5. Chaque version est régie par le Contrat qui l'accompagne.
 
 ### 8. Composants tiers et open source
 Le Logiciel intègre des bibliothèques et composants logiciels distribués sous licences libres ou open source (notamment MIT, Apache 2.0, BSD, ISC, Mozilla Public License 2.0, Unicode). Ces composants demeurent soumis à leurs licences respectives, qui prévalent sur le présent Contrat pour les seuls composants concernés. Leurs textes et mentions de droits sont fournis avec le Logiciel (fichier « THIRD-PARTY-NOTICES »).
@@ -68,8 +72,8 @@ Le présent Contrat est régi et interprété conformément au droit français. 
 
 # End-User License Agreement (EULA) — Effortless (Standard Edition)
 
-**Version 2.0 — Proprietary Freeware. This English version is a translation; the French version prevails.**
-*Effective date: October 11, 2026.*
+**Version 2.1 — Proprietary Freeware. This English version is a translation; the French version prevails.**
+*Effective date: October 31, 2026.*
 *Copyright © 2026 Benjamin Dubois, EI, trading as ArboRithm. All rights reserved.*
 
 **Publisher**: Benjamin Dubois, sole trader (French "entrepreneur individuel", EI), trading under the name "ArboRithm" — SIREN: 490 123 296 — contact: app@arborithm.fr. In this Agreement, "ArboRithm" means this publisher.
@@ -106,8 +110,12 @@ Unless explicitly authorized in writing by ArboRithm, you may not:
 4. **Guarantee: your personal and private data will never be collected.** This guarantee applies today and to any future measurement. It covers in particular: your identity, contact details and identifiers; your User Data (code, documents, projects, registers, instructions and exchanges with agents); the names and paths of your files, projects and repositories; your secrets, tokens and keys; and any data that could identify you. The IP address through which a future measurement would transit will be neither stored nor associated with the measured data.
 5. For any question about your data: app@arborithm.fr.
 
-### 7. Updates
-The Software checks for available updates with its distribution infrastructure (GitHub Releases, operated by GitHub, Inc.), which receives on that occasion, as for any download, your device's IP address and the installed version, and processes them under its own privacy statement. The check at launch can be turned off in Preferences. An update is downloaded and installed upon your action. Each version is governed by the Agreement that accompanies it.
+### 7. Updates and Offline Operation
+1. The Software watches for available updates on its public channel: shortly after it starts, then at regular intervals while it stays open. To do so it queries its distribution infrastructure (GitHub Releases, operated by GitHub, Inc.), which receives on that occasion, as for any download, your device's IP address and the installed version, and processes them under its own privacy statement.
+2. When a newer version is available, the Software tells you so in its window, through a system notification and in its menu. You can skip a version. An update is downloaded and installed only upon your action.
+3. This watch can be turned off in Preferences ("Watch the public channel for updates").
+4. The operation of the Software does not depend on an Internet connection. Without a network, the update check fails without effect, and the Software remains fully usable, including with an artificial intelligence agent running on your device. Only the operations that by nature address a remote service you have configured (git repository, standards source, tracking tools, release publishing) then fail, without blocking the rest of the Software.
+5. Each version is governed by the Agreement that accompanies it.
 
 ### 8. Third-Party and Open Source Components
 The Software includes libraries and software components distributed under free or open source licenses (including MIT, Apache 2.0, BSD, ISC, Mozilla Public License 2.0, Unicode). Those components are governed by their respective licenses, which prevail over this Agreement solely regarding those specific components. Their texts and copyright notices are provided with the Software ("THIRD-PARTY-NOTICES" file).
